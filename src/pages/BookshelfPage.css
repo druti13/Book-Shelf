@@ -1,0 +1,24 @@
+.remove-button {
+    background-color: #ff5733; /* Choose your desired color */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Adjust as needed */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-button:hover {
+    background-color: #d14522; /* Change color on hover */
+  }
+  /* src/pages/BookshelfPage.css */
+.bookshelf-page {
+    
+    
+    
+    
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  }
+  

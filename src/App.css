@@ -1,0 +1,88 @@
+/* Apply a muted color to the entire background */
+body {
+  background-color: #968585; /* Muted background color */
+  margin: 0;
+  padding: 0;
+  
+  font-family: Arial, sans-serif;
+  background-image: url('../../personal-bookshelf/src/components/assets/pic1.jpg'); /* Import and set the background image */
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; 
+  padding: 30px 100px; 
+  background-color: #f3d9d9; 
+  box-shadow: 0 2px 4px rgba(169, 154, 154, 0.1); 
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-right: 20px; /* Add margin to push elements to the right */
+}
+
+input {
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 400px;
+}
+
+.book-card {
+  border: 1px solid #fffafa;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+  width: calc(25% - 20px);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+  .book-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 400px) {
+  .book-card {
+    width: calc(100% - 20px);
+  }
+}
+
+
+.container {
+  background-color: #cdc552; 
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* src/App.css */
+
+
+.book-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .book-card {
+    width: calc(50% - 20px);
+  }
+}
+
+
+

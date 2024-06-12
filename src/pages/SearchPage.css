@@ -1,0 +1,23 @@
+.search-bar {
+    position: relative;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px 10px 10px 30px; /* Adjust padding to make room for the icon */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
